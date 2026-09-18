@@ -1,0 +1,14 @@
+{
+  "engine_id": "benchmark-engine",
+  "symbols": ["BTC-USD", "ETH-USD", "SOL-USD", "XRP-USD"],
+  "shard_count": 4,
+  "ingress_queue_size": 16384,
+  "shard_queue_size": 16384,
+  "wal_dir": "./data/wal-bench",
+  "snapshot_dir": "./data/snapshots-bench",
+  "max_batch_commands": 128,
+  "max_batch_bytes": 65536,
+  "max_batch_delay_micros": 100,
+  "enable_metrics": true,
+  "metrics_report_millis": 1000
+}
